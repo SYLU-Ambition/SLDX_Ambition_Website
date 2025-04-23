@@ -1,25 +1,26 @@
-// index.js
-// import DefaultTheme from 'vitepress/theme'
-// import './custom.css'
+import { h } from 'vue'
+import DefaultTheme from 'vitepress/theme'
+import Layout from './MyLayout.vue' // 保留你的自定义布局
+import './style.css' // 导入色彩配置文件
 
-// export default DefaultTheme
-
-// .vitepress/theme/index.js
-
-// 可以直接在主题入口导入 Vue 文件
-// VitePress 已预先配置 @vitejs/plugin-vue
-import Layout from './MyLayout.vue';
-
+/** @type {import('vitepress').Theme} */
 export default {
-  Layout,
-  enhanceApp: ({ router }) => {
+  extends: DefaultTheme,
+  Layout: () => {
+    // 同时保留自定义布局和默认主题扩展
+    return h(Layout, null, {
+      // 可通过插槽添加更多内容
+      // 'sidebar-nav-before': () => h('div', '导航栏前内容')
+    })
+  },
+  enhanceApp({ app, router, siteData }) {
+    // 保留原有统计逻辑
     router.onBeforeRouteChange = (to) => {
-      //线上环境才上报
       if (import.meta.env.MODE === 'production') {
         if (typeof _hmt !== 'undefined' && !!to) {
           _hmt.push(['_trackPageview', to]);
         }
       }
     };
-  },
-};
+  }
+}

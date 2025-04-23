@@ -3,8 +3,8 @@ export default [//左侧边栏
         text: '战队介绍',
         collapsed: true,
         items: [
-            { text: '战队历代成员', link: '/Ambition_Introduction/team_members' },
             { text: '战队历史', link: '/Ambition_Introduction/team_history' },
+            { text: '战队历代成员', link: '/Ambition_Introduction/team_members' },
             { text: '宣传视频', link: '/Ambition_Introduction/promotional_video' } 
         ]
     },
