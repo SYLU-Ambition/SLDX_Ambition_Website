@@ -68,5 +68,5 @@ export default defineConfig({
     lineNumbers: true,//代码块行数
   },
   cleanUrls:true,//清除URL中的.html后缀
-  base: "/Ambition_Website/",
+  base: '/Ambition_Website/',
 })
