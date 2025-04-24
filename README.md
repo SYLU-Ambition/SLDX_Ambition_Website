@@ -1,1 +1,1 @@
-网址链接：https://sylu-ambition.github.io/Ambition_Website/
+网址链接：https://sylu-ambition.github.io/SLDX_Ambition_Website/
