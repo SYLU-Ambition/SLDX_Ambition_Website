@@ -1,11 +1,15 @@
 # 战队历年合照  
 >暂时只增加参赛前后合照，其余合照后续增补
 
+![LOVE](/team_photos/love.jpg)  
+
 ## 2017赛季合照
 
 ![17合照1](/team_photos/17HZ.jpg)  
 
 ![17合照2](/team_photos/17HZ2.jpg)  
+
+![17合照3](/team_photos/17DKS.jpg)  
 
 ## 2018赛季合照
 
@@ -17,9 +21,21 @@
 
 ![19合照1](/team_photos/19HZ.jpg)  
 
-![19合照2](/team_photos/19BJ.jpg)   
+![19合照2](/team_photos/19HZ2.jpg)  
 
-![19合照3](/team_photos/19BJ2.jpg)  
+![19合照3](/team_photos/19HZ3.jpg)  
+
+![19合照4](/team_photos/19HZ4.jpg)  
+
+![19合照5](/team_photos/19HZ5.jpg) 
+
+![19合照6](/team_photos/19HZ5.jpg) 
+
+![19合照7](/team_photos/19HZ6.png) 
+
+![19合照8](/team_photos/19BJ.jpg)   
+
+![19合照9](/team_photos/19BJ2.jpg)  
 
 ## 2020赛季合照
 
