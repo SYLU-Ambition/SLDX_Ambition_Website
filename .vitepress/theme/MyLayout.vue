@@ -23,9 +23,6 @@ watch(isDark, (dark) => {
 </script>
 <template>
   <Layout>
-    <!-- <template #not-found>
-      <NotFound></NotFound>
-    </template> -->
     <template #doc-after>
       <div style="margin-top: 24px">
         <Giscus
