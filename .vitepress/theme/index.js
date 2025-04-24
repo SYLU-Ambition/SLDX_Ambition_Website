@@ -1,7 +1,8 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import Layout from './MyLayout.vue' // 保留你的自定义布局
+import Layout from './MyLayout.vue' // 保留自定义布局
 import './style.css' // 导入色彩配置文件
+import confetti from "./confetti.vue";// 导入彩带配置文件
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -14,6 +15,9 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    // 注册彩带组件
+    app.component("confetti", confetti);
+
     // 保留原有统计逻辑
     router.onBeforeRouteChange = (to) => {
       if (import.meta.env.MODE === 'production') {
