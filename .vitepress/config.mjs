@@ -67,4 +67,5 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,//代码块行数
   },
+  cleanUrls:true,//清除URL中的.html后缀
 })
