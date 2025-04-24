@@ -5,15 +5,15 @@ import socialLinks from './socialLinks.mjs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/Ambition_LOGO_LIGHT.png" }]],
+  head: [["link", { rel: "icon", href: "/home/Ambition_LOGO_LIGHT.png" }]],
   title: "SYDX-Ambition",//网页大标题
   description: "A VitePress Site",
   themeConfig: {
     outlineTitle: '目录',
     outline: [2,  6],
     logo: {
-      light: '/SLDX_LOGO_LIGHT.png',
-      dark: '/SLDX_LOGO_DARK.png'
+      light: '/home/SLDX_LOGO_LIGHT.png',
+      dark: '/home/SLDX_LOGO_DARK.png'
     },
 
     // https://vitepress.dev/reference/default-theme-config
