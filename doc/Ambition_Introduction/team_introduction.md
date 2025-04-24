@@ -8,6 +8,6 @@ Ambition战队始建于2017年，是为参加RoboMaster机甲大师赛而组建�
 
 ![步兵](/team_introduction/BB.jpg)  
 
-在以后的日子里，Anbition战队不忘初心，持续蓄力，能带着梦想，越走越远！以后的每一步都将会是新的开始、新的征途。
+在以后的日子里，Ambition战队不忘初心，持续蓄力，能带着梦想，越走越远！以后的每一步都将会是新的开始、新的征途。
 
 ![哨兵](/team_introduction/SB.jpg)  
