@@ -12,7 +12,7 @@ hero:
   actions: # 中间跳转按钮
     - theme: brand
       text: 了解我们
-      link: /Ambition_Introduction/team_history
+      link: /Ambition_Introduction/team_introduction
     - theme: alt
       text: 我要报名
       link: /Sign_Up/group_introduction
