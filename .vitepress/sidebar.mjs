@@ -29,6 +29,7 @@ export default [//左侧边栏
         text: '照片展示',
         collapsed: true,
         items: [
+            { text: '23对抗赛', link: '/Photo/23DKS' },
             { text: '23复活赛', link: '/Photo/23FHS' },
             { text: '24联盟赛', link: '/Photo/24LMS' },
             { text: '24对抗赛', link: '/Photo/24DKS' },
