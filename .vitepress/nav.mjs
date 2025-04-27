@@ -29,6 +29,7 @@ export default [//页眉按钮
         text: '照片展示',
         items: [
             { text: '24联盟赛', link: '/Photo/24LMS' },
+            { text: '24对抗赛', link: '/Photo/24DKS' },
         ]
     },
     {

@@ -30,6 +30,7 @@ export default [//左侧边栏
         collapsed: true,
         items: [
             { text: '24联盟赛', link: '/Photo/24LMS' },
+            { text: '24对抗赛', link: '/Photo/24DKS' },
         ]
     },
     {
