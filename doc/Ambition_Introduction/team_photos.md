@@ -37,7 +37,8 @@
 
 ![21合照1](/team_photos/21LMS.jpg) 
 ![21合照2](/team_photos/21HZ.jpg) 
-![21合照3](/team_photos/21HZ2.jpg)  
+![21合照3](/team_photos/21HZ2.jpg) 
+![21合照4](/team_photos/21HZ3.jpg)  
 
 ## 2022赛季合照
 
