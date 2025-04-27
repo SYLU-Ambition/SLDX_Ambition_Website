@@ -21,5 +21,3 @@
 ![21对抗赛20](/photo_21dks/20.jpg)
 ![21对抗赛21](/photo_21dks/21.jpg)
 ![21对抗赛22](/photo_21dks/22.jpg)
-![21对抗赛23](/photo_21dks/23.jpg)
-![21对抗赛21](/photo_21dks/21.jpg)
