@@ -31,6 +31,7 @@ export default [//页眉按钮
             { text: '17对抗赛', link: '/Photo/17DKS' },
             { text: '18对抗赛', link: '/Photo/18DKS' },
             { text: '21联盟赛', link: '/Photo/21LMS' },
+            { text: '21对抗赛', link: '/Photo/21DKS' },
             { text: '23联盟赛', link: '/Photo/23LMS' },
             { text: '23对抗赛', link: '/Photo/23DKS' },
             { text: '23复活赛', link: '/Photo/23FHS' },
