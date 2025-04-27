@@ -32,4 +32,12 @@ export default [//左侧边栏
             { text: '24联盟赛', link: '/Photo/24LMS' },
         ]
     },
+    {
+        text: '知识库',
+        collapsed: true,
+        items: [
+            { text: 'SW安装指南', link: '/Knowledge/JX-SW' },
+            { text: '雕铣机使用指南', link: '/Knowledge/JX-DXJ' },            
+        ]
+    },
 ]

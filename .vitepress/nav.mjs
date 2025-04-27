@@ -31,4 +31,11 @@ export default [//页眉按钮
             { text: '24联盟赛', link: '/Photo/24LMS' },
         ]
     },
+    {
+        text: '知识库',
+        items: [
+            { text: 'SW安装指南', link: '/Knowledge/JX-SW' },
+            { text: '雕铣机使用指南', link: '/Knowledge/JX-DXJ' },            
+        ]
+    },
 ]
