@@ -3,6 +3,7 @@ export default [//页眉按钮
     {
         text: '战队介绍',
         items: [
+            { text: '赛事介绍', link: '/Ambition_Introduction/competition_introduction' },
             { text: '战队简介', link: '/Ambition_Introduction/team_introduction' },
             { text: '战队历史', link: '/Ambition_Introduction/team_history' },
             { text: '战队合照', link: '/Ambition_Introduction/team_photos' },
@@ -14,6 +15,7 @@ export default [//页眉按钮
     {
         text: '加入我们',
         items: [
+            { text: '招新介绍', link: '/Sign_Up/sign_up_introduction' },
             { text: '组别介绍', link: '/Sign_Up/group_introduction' },
             { text: '招新通道', link: '/Sign_Up/sign_up' },
             { text: 'Q&A', link: '/Sign_Up/QA' }

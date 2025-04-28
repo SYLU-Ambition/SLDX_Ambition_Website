@@ -15,7 +15,7 @@ hero:
       link: /Ambition_Introduction/team_introduction
     - theme: alt
       text: 我要报名
-      link: /Sign_Up/group_introduction
+      link: /Sign_Up/sign_up_introduction
 
 features: # 首页下方介绍
   - icon:
