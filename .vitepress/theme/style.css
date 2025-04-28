@@ -137,3 +137,17 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/* 提高缩放背景层和图片的层级 */
+.medium-zoom-overlay {
+  z-index: 999 !important;
+  background-color: var(--vp-c-bg) !important;
+}
+
+.medium-zoom-image {
+  z-index: 1000 !important;
+}
+
+/* 确保侧边栏在缩放层之下 */
+.vp-sidebar {
+  z-index: 99 !important;
+}
