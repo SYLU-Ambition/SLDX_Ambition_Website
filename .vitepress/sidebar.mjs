@@ -47,7 +47,8 @@ export default [//左侧边栏
         collapsed: true,
         items: [
             { text: 'SW安装指南', link: '/Knowledge/JX-SW' },
-            { text: '雕铣机使用指南', link: '/Knowledge/JX-DXJ' },            
+            { text: '雕铣机使用指南', link: '/Knowledge/JX-DXJ' },   
+            { text: '雕铣机常用参数', link: '/Knowledge/JX-DXJCS' },            
         ]
     },
 ]
