@@ -19,7 +19,8 @@
 :::
 
 ::: warning 提示
-为保证设备环境安全，USB已禁用，请通过NAS中转传输加工图纸。
+为保证设备环境安全，USB已禁用，请通过NAS中转传输加工图纸。  
+[NAS使用方法（队内文件请登录飞书查看）](https://pcn5pnebd1de.feishu.cn/wiki/TFbAwt4FriCJgFkCbrOcJ80MnFo)
 :::
 
 ## 注意事项
