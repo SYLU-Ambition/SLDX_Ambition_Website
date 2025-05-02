@@ -53,4 +53,8 @@ export default [//左侧边栏
             { text: 'RM操作手端使用', link: '/Knowledge/RM-Series' },           
         ]
     },
+    {//置底，要添加目录在上面添加
+        text: '官网维护', 
+        link: '/team',         
+    },
 ]
