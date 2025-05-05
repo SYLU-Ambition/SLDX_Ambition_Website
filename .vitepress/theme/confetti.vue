@@ -11,3 +11,7 @@ if (inBrowser) {
   });
 }
 </script>
+
+<template>
+  <!-- 添加这个空的 template 可以消除 Vue 的警告 -->
+</template>
