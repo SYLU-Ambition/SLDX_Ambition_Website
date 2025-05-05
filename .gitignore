@@ -9,4 +9,4 @@ cache
 .vscode
 .idea
 .history/*
-.code-workspace
+*.code-workspace
