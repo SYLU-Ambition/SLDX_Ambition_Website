@@ -7,7 +7,7 @@ import './style.css'
 import escookTheme from '@escook/vitepress-theme'
 import '@escook/vitepress-theme/style.css' 
 import MyLayout from './MyLayout.vue' 
-import LinkCard from './NCard.vue' 
+import NCard from './NCard.vue' 
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -32,7 +32,7 @@ export default {
   // 应用增强配置
   enhanceApp({ app, router, siteData }) {
     // --- 注册全局组件 ---
-    app.component('NCard', LinkCard) // 注册 NCard 组件
+    app.component('NCard', NCard) // 注册 NCard 组件
 
     // --- 保持百度统计逻辑 ---
     if (import.meta.env.PROD) {
