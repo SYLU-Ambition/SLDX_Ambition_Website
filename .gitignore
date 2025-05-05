@@ -6,3 +6,6 @@ cache
 .cache
 .temp
 *.local
+.vscode
+.idea
+.history/*
