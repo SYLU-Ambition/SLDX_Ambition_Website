@@ -5,15 +5,18 @@ import { onMounted, watch, nextTick } from 'vue'
 import { useRoute } from 'vitepress'
 import Layout from './MyLayout.vue'
 import './style.css'
+import escookTheme from '@escook/vitepress-theme'
+import '@escook/vitepress-theme/style.css'
+import './style.css'
 
 /** @type {import('vitepress').Theme} */
 export default {
-  extends: DefaultTheme,
+  extends: escookTheme,
   
   // 布局配置
   Layout: () => {
-    return h(Layout, null, {
-      // 可在此处添加布局插槽配置
+    return h(escookTheme.Layout, null, {
+      // https://vitepress.dev/guide/extending-default-theme#layout-slots
     })
   },
 
