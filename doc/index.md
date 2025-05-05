@@ -7,7 +7,7 @@ hero:
   text: "Ambition战队" # 首页二级标题
   tagline: 梦以为剑，创征四方！ # 口号
   image:
-    alt: Ambition队徽
+    alt: Logo
     src: /home/Ambition_LOGO_LIGHT.png
   actions: # 中间跳转按钮
     - theme: brand
