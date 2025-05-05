@@ -48,13 +48,14 @@ export default [//左侧边栏
         collapsed: true,
         items: [
             { text: 'SW安装指南', link: '/Knowledge/JX-SW' },
-            { text: '雕铣机使用指南', link: '/Knowledge/JX-DXJ' },   
-            { text: '雕铣机常用参数', link: '/Knowledge/JX-DXJCS' },   
             { text: 'RM操作手端使用', link: '/Knowledge/RM-Series' },           
         ]
     },
     {//置底，要添加目录在上面添加
-        text: '官网维护', 
-        link: '/team',         
+        text: '关于',
+        collapsed: true,
+        items: [
+            { text: '官网项目组', link: '/team' },         
+        ]       
     },
 ]
