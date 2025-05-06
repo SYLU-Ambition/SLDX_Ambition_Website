@@ -5,7 +5,7 @@ import Giscus from '@giscus/vue';
 import { useRoute, useData, inBrowser } from 'vitepress';
 const { page, isDark } = useData();
 const { Layout } = DefaultTheme;
-// import NotFound from './NotFound.vue'
+
 
 watch(isDark, (dark) => {
   if (!inBrowser) return;
@@ -19,19 +19,17 @@ watch(isDark, (dark) => {
     'https://giscus.app'
   );
 });
-// ...
+
 </script>
 
-<!-- 唯一的顶层 template -->
+
 <template>
-  <div> <!-- 添加一个根 div 来包裹两者 -->
-    <!-- 从第二个 template 移动过来的背景效果 -->
+  <div> 
     <div
         class="absolute flex flex-col z-[40] w-full !max-w-full items-center justify-center bg-transparent transition-bg overflow-hidden h-[60vh] -top-16 pointer-events-none opacity-[.35] dark:opacity-50">
         <div class="jumbo absolute opacity-60 animate"></div>
     </div>
 
-    <!-- 原来的 Layout 结构 -->
     <Layout>
       <template #doc-after>
         <div style="margin-top: 24px">
@@ -56,7 +54,7 @@ watch(isDark, (dark) => {
   </div>
 </template>
 
-<!-- 第一个 style 块 -->
+
 <style>
 iframe{
   width: 100%;
@@ -80,7 +78,6 @@ th, td {
 }
 </style>
 
-<!-- 第二个 style 块 (scoped) -->
 <style scoped>
 .opacity-\[\.35\] {
   opacity: .35;
