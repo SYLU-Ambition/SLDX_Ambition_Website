@@ -6,7 +6,7 @@ export default [//左侧边栏
             { text: '赛事介绍', link: '/Ambition_Introduction/competition_introduction' },
             { text: '战队简介', link: '/Ambition_Introduction/team_introduction' },
             { text: '战队合照', link: '/Ambition_Introduction/team_photos' },
-            { text: '战队历代成员', link: '/Ambition_Introduction/team_members' },
+            { text: '战队成员', link: '/Ambition_Introduction/team_members' },
             { text: '宣传视频', link: '/Ambition_Introduction/promotional_video' } 
         ]
     },
