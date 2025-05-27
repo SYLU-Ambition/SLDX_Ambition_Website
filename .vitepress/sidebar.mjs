@@ -41,6 +41,7 @@ export default [//左侧边栏
             { text: '23复活赛', link: '/Photo/23FHS' },
             { text: '24联盟赛', link: '/Photo/24LMS' },
             { text: '24对抗赛', link: '/Photo/24DKS' },
+            { text: '25对抗赛', link: '/Photo/25DKS' },
         ]
     },
     {

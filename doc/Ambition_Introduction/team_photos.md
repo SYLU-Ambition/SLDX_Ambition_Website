@@ -56,4 +56,5 @@
 
 ## 2025赛季合照
 
-![25合照](/team_photos/25LMS2.jpg)
+![25合照1](/team_photos/25LMS2.jpg)
+![25合照2](/team_photos/25DKS.jpg)
