@@ -10,8 +10,8 @@ hero:
     src: /home/Ambition_LOGO_LIGHT.png
   actions: # 中间跳转按钮
     - theme: brand
-      text: 了解我们
-      link: /Ambition_Introduction/team_introduction
+      text: 快速导航
+      link: /Ambition_Introduction/contents
     - theme: alt
       text: 我要报名
       link: /Sign_Up/sign_up_introduction

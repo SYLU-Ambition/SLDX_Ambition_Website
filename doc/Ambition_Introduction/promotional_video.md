@@ -1,4 +1,7 @@
 # 宣传视频
+## 25联盟赛MV
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114421351318893&bvid=BV1XUGmzMEsC&cid=29693184529&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 ## 25赛季招新宣传视频
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113264394571533&bvid=BV1VZ1kYPErQ&cid=26180062738&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
