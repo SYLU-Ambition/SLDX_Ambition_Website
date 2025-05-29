@@ -1,6 +1,6 @@
 export default [//页眉按钮
     { text: '主页', link: '/' },
-    { text: '快速导航', link: '/Ambition_Introduction/contents' },
+    { text: '快速导航', link: 'contents' },
     {
         text: '战队介绍',
         items: [
