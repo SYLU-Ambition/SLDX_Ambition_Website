@@ -29,20 +29,12 @@
 ![19合照8](/team_photos/19BJ.jpg) 
 ![19合照9](/team_photos/19BJ2.jpg)  
 
-## 2020赛季合照
-
-**残缺待补**
-
 ## 2021赛季合照
 
 ![21合照1](/team_photos/21LMS.jpg) 
 ![21合照2](/team_photos/21HZ.jpg) 
 ![21合照3](/team_photos/21HZ2.jpg) 
 ![21合照4](/team_photos/21HZ3.jpg)  
-
-## 2022赛季合照
-
-**残缺待补**
 
 ## 2023赛季合照
 
