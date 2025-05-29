@@ -38,7 +38,3 @@ features: # 首页下方介绍
     title: 运营组
     details: 运营组负责各平台账号的运营，日常素材的拍摄，海报的制作和视频的剪辑。
 ---
-<script setup>
-import Confetti from '../.vitepress/theme/confetti.vue'
-</script>
-<confetti />
