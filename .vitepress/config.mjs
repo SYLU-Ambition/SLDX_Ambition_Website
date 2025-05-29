@@ -23,7 +23,17 @@ export default defineConfig({
 
     socialLinks: socialLinks,//跳转
     footer: {//页脚
-      copyright: "By 2025 运营组 Zhan_Kong",
+      // 在这里添加友链
+      message: `
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+          <div>
+            <strong>链接：</strong>
+            <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener noreferrer" style="margin: 0 5px;">RoboMaster 官网</a> |
+            <a href="https://www.sylu.edu.cn/" target="_blank" rel="noopener noreferrer" style="margin: 0 5px;">沈阳理工大学 官网</a>
+          </div>
+          <div>${new Date().getFullYear()} © By 运营组 Zhan_Kong</div>
+        </div>
+      `,
     },
     search: {
       provider: 'local',
