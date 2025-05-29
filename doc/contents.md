@@ -17,7 +17,7 @@ RoboMaster究竟有什么样的魅力？
 
 ##  战队介绍
 <br>
-<NCard title="📑 微光的传承" link="./History/team_introduction">
+<NCard title="📑 微光的传承" link="./History/history1">
 微光的传承——Ambition战队的今生故事。
 </NCard>
 
