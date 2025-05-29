@@ -58,7 +58,7 @@ watch(isDark, (dark) => {
 <style>
 iframe{
   width: 100%;
-  height: 400px;
+  height: 460px;
   border-top-width: 0px;
   border-bottom-width: 0px;
   border-left-width: 0px;
