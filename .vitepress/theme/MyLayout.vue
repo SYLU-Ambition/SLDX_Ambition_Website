@@ -56,20 +56,21 @@ watch(isDark, (dark) => {
 
 
 <style>
-iframe{
-  width: 100%;
-  height: 460px;
-  border-top-width: 0px;
-  border-bottom-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+.main iframe, main iframe
+{
+  display: block; 
+  width: 100%;    
+  max-width: 100%; 
+  aspect-ratio: 16 / 9; 
+  height: auto !important; 
+  border: none; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
 }
 
 th, td {
-    white-space: nowrap !important; /* 不让th，td内容换行显示 */
-    width: 1%; /* 强制均匀分配宽度 */
+    white-space: nowrap !important;
+    width: 1%;
 }
 
 .main img{
