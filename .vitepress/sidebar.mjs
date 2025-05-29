@@ -16,7 +16,6 @@ export default [//左侧边栏
         items: [
             { text: '招新介绍', link: '/Sign_Up/sign_up_introduction' },
             { text: '组别介绍', link: '/Sign_Up/group_introduction' },
-            { text: '招新通道', link: '/Sign_Up/sign_up' },
             { text: 'Q&A', link: '/Sign_Up/QA' }
         ]
     },
