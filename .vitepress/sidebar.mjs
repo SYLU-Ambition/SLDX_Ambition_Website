@@ -1,4 +1,5 @@
 export default [//左侧边栏
+    { text: '快速导航', link: 'contents' },
     {
         text: '战队介绍',
         collapsed: false,
