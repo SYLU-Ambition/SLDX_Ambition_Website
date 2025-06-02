@@ -22,6 +22,7 @@ RoboMaster 机甲大师高校系列赛（RMU, RoboMaster University Series），
 #### 规则概述
 
 在2025赛季中，对战双方需自主研发不同种类和功能的机器人，在指定的比赛场地内进行战术对抗，通过操控机器人发射弹丸攻击对方机器人和基地。比赛结束时，基地剩余血量高的一方获得比赛胜利。
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114477991200346&bvid=BV1LB55z9EUL&cid=29872032869&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ---
 
