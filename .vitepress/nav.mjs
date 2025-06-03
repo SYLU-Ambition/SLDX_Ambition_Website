@@ -9,6 +9,7 @@ export default [//页眉按钮
             { text: '战队历史', link: '/Ambition_Introduction/team_history' },
             { text: '战队合照', link: '/Ambition_Introduction/team_photos' },
             { text: '战队成员', link: '/Ambition_Introduction/team_members' },
+            { text: '兵种图片', link: '/Ambition_Introduction/robot_photo' },
             { text: '参赛战绩', link: '/Ambition_Introduction/participation_history' },
             { text: '宣传视频', link: '/Ambition_Introduction/promotional_video' }
         ]
