@@ -5,12 +5,19 @@ import socialLinks from './socialLinks.mjs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/home/Ambition_LOGO_LIGHT.png" }]],
+  head: [["link", { rel: "icon", href: "/home/Ambition_LOGO_LIGHT.png" }],
+  ["meta", 
+    {
+    name: "baidu-site-verification",
+    content: "codeva-pJXIGYLWho"
+    }
+  ]
+  ],
   title: "SYDX-Ambition",//网页大标题
   description: "A VitePress Site",
   themeConfig: {
     outlineTitle: '目录',
-    outline: [2,  6],
+    outline: [2, 6],
     logo: {
       light: '/home/SLDX_LOGO_LIGHT.png',
       dark: '/home/SLDX_LOGO_DARK.png'
@@ -82,6 +89,6 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,//代码块行数
   },
-  cleanUrls:true,//清除URL中的.html后缀
+  cleanUrls: true,//清除URL中的.html后缀
   base: '/',
 })
