@@ -35,17 +35,18 @@ watch(isDark, (dark) => {
         <div style="margin-top: 24px">
           <Giscus
             :key="page.filePath"
-            repo="SYLU-Ambition/Ambition_Website"
+            repo="SYLU-Ambition/SLDX_Ambition_Website"
             repo-id="R_kgDOOea3Bg"
             category="Genera"
-            category-id="DIC_kwDOOea3Bs4CpZV7"
-            mapping="title"
+            category-id="DIC_kwDOOea3Bs4CpZV6"
+            mapping="pathname"
             strict="0"
             reactions-enabled="1"
             emit-metadata="0"
             :theme="isDark ? 'dark' : 'light'"
             input-position="top"
             lang="zh-CN"
+            loading="lazy"
             crossorigin="anonymous"
           />
         </div>
