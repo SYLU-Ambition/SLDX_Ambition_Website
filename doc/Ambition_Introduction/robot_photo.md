@@ -33,7 +33,7 @@
 ![24步兵](/robot_photo/24BB.png) 
 ### 哨兵 
 ![24哨兵](/robot_photo/24SB.png)  
-### 雷达站
+### 飞镖
 ![24飞镖](/robot_photo/24FB.png)  
 
 ## 23赛季
