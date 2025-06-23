@@ -34,8 +34,9 @@ export default defineConfig({
       message:'© 2025-present 运营组 Zhan_Kong',
       copyright:
         `链接：
+          <a href="https://www.sylu.edu.cn/" target="_blank" rel="noopener noreferrer" style="margin: 0 5px;">沈阳理工大学 官网</a> |
           <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener noreferrer" style="margin: 0 5px;">RoboMaster 官网</a> |
-          <a href="https://www.sylu.edu.cn/" target="_blank" rel="noopener noreferrer" style="margin: 0 5px;">沈阳理工大学 官网</a>
+          <a href="https://bbs.robomaster.com/" target="_blank" rel="noopener noreferrer" style="margin: 0 5px;">RoboMaster 论坛</a> 
         `,
     },
     search: {
