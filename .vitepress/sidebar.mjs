@@ -19,7 +19,7 @@ export default [//左侧边栏
         items: [
             { text: '招新介绍', link: '/Sign_Up/sign_up_introduction' },
             { text: '组别介绍', link: '/Sign_Up/group_introduction' },
-            { text: 'Q&A', link: '/Sign_Up/QA' }
+            { text: 'Q&A', link: '/Sign_Up/qa' }
         ]
     },
     {
@@ -50,8 +50,8 @@ export default [//左侧边栏
         text: '知识库',
         collapsed: true,
         items: [
-            { text: 'SW安装指南', link: '/Knowledge/JX-SW' },
-            { text: 'RM操作手端使用', link: '/Knowledge/RM-Series' },           
+            { text: 'SW安装指南', link: '/Knowledge/jx_sw' },
+            { text: 'RM操作手端使用', link: '/Knowledge/rm_server' },
         ]
     },
     {//置底，要添加目录在上面添加

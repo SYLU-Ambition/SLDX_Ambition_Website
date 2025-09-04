@@ -26,10 +26,10 @@
 
 安装操作手端运行环境：
 解压后文件夹\RoboMasterClient\RoboMasterClient_Data\StreamingAssets\Tools目录下的所有的.exe
-![依赖1](/rm_series/01.png)  
+![依赖1](/Knowledge/rm_server/01.png)  
 若出现图示两种提示界面代表你已经安装好了/安装了其他版本的，无需重复安装
-![依赖2](/rm_series/02.png)  
-![依赖3](/rm_series/03.png)  
+![依赖2](/Knowledge/rm_server/02.png)  
+![依赖3](/Knowledge/rm_server/03.png)  
 
 ## 安装图传驱动
 
@@ -43,12 +43,12 @@
 
 自25赛季起从官方借用的图传为新图传  
 [**下载链接**](https://www.robomaster.com/zh-CN/products/components/detail/6136)
-![图传驱动1](/rm_series/04.png)  
+![图传驱动1](/Knowledge/rm_server/04.png)  
 
 ### 老图传————VT02&VT12图传模块
 
 [**下载链接**](https://www.robomaster.com/zh-CN/products/components/detail/6136)
-![图传驱动2](/rm_series/05.png)  
+![图传驱动2](/Knowledge/rm_server/05.png)  
 
 老图传使用需要设置图传IP地址为192.168.42.105，若设置错误图传不会显示画面。  
 步骤为电脑基础设置不再赘述。
@@ -65,7 +65,7 @@
 ## 运行操作手端
 
 在操作手端根目录下双击运行start.bat
-![操作手端](/rm_series/06.png)  
+![操作手端](/Knowledge/rm_server/06.png)  
 
 若图传没图像请检查图传设置，找不到问题换台电脑吧
 

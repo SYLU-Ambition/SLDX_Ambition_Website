@@ -15,10 +15,10 @@
 | 25赛季·超级对抗赛·中部赛区 | 十六强    |
 | 25赛季·高校联盟赛·辽宁站   |          |
 ## 21赛季复活赛晋级卡
-![21晋级卡](/participation_history/21JJK.jpg) 
+![21晋级卡](/Ambition_Introduction/participation_history/21JJK.jpg) 
 
 ## 23赛季复活赛晋级卡
-![23晋级卡](/participation_history/23JJK.jpg) 
+![23晋级卡](/Ambition_Introduction/participation_history/23JJK.jpg) 
 
 ## 24赛季辽宁站步兵对抗赛冠军
-![24冠军](/participation_history/24GJ.jpg) 
+![24冠军](/Ambition_Introduction/participation_history/24GJ.jpg) 

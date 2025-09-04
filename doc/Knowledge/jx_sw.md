@@ -10,41 +10,41 @@
 ### 1. 停止注册机运行
 打开C盘下SolidWorks_Flexnet_Server文件夹，右键server_remove.bat文件以管理员身份运行
 
-![SW安装1](/jx_sw/1.png) 
+![SW安装1](/Knowledge/jx_sw/1.png) 
 
 成功后会有如下页面，关闭终端，从C盘中删除该文件夹
 
-![SW安装2](/jx_sw/2.png) 
+![SW安装2](/Knowledge/jx_sw/2.png) 
 
 ### 2. 打开设置-应用，找到Solidworks并点击卸载
 
-![SW安装3](/jx_sw/3.png) 
+![SW安装3](/Knowledge/jx_sw/3.png) 
 
 勾选所有组件，点击高级选项-更改
 
-![SW安装4](/jx_sw/4.png) 
+![SW安装4](/Knowledge/jx_sw/4.png) 
 
 勾选所有选项
 
-![SW安装5](/jx_sw/5.png)
+![SW安装5](/Knowledge/jx_sw/5.png)
 
 返回上一界面，确定卸载方法已变为完全卸载与图示相同，点击移除项目
 
-![SW安装6](/jx_sw/6.png)
+![SW安装6](/Knowledge/jx_sw/6.png)
 
 点击是
 
-![SW安装7](/jx_sw/7.png)
+![SW安装7](/Knowledge/jx_sw/7.png)
 
 ### 3. 等待卸载完成
 
-![SW安装8](/jx_sw/8.png)
+![SW安装8](/Knowledge/jx_sw/8.png)
 
 ### 4. 删除主要卸载残留
 
 找到SW安装根目录下SOLIDWORKS Corp文件夹，删除该文件夹
 
-![SW安装9](/jx_sw/9.png)
+![SW安装9](/Knowledge/jx_sw/9.png)
 
 
 ## SW安装
@@ -57,7 +57,7 @@
 安装前请检查电脑名称是否为英文，中文电脑名称会导致安装异常。    
 请将电脑名称改为英文后重启电脑再安装。
 
-![SW安装10](/jx_sw/10.png)
+![SW安装10](/Knowledge/jx_sw/10.png)
 :::
 
 ### 1. 下载SW安装包
@@ -74,11 +74,11 @@
 
 打开解压后的安装包文件夹，进入Crack文件夹
 
-![SW安装11](/jx_sw/11.png)
+![SW安装11](/Knowledge/jx_sw/11.png)
 
 复制SolidWorks_Flexnet_Server文件夹到C盘根目录
 
-![SW安装12](/jx_sw/12.png)
+![SW安装12](/Knowledge/jx_sw/12.png)
 
 打开复制后的SolidWorks_Flexnet_Server文件夹，右键server_install.bat文件以管理员身份运行
 
@@ -86,74 +86,74 @@
 该文件夹不能删除，删除后SW将无法正常运行。
 :::
 
-![SW安装13](/jx_sw/13.png)
+![SW安装13](/Knowledge/jx_sw/13.png)
 
 等待服务启动成功出现图示画面
 
-![SW安装14](/jx_sw/14.png)
+![SW安装14](/Knowledge/jx_sw/14.png)
 
 运行目录下的两个.reg（注册表）文件，若跳出提示全部点击是
 
-![SW安装15](/jx_sw/15.png)
+![SW安装15](/Knowledge/jx_sw/15.png)
 
 ### 4.安装SW
 重新打开解压后的安装包文件夹，打开Setup文件夹
 
-![SW安装16](/jx_sw/16.png)
+![SW安装16](/Knowledge/jx_sw/16.png)
 
 找到setup.exe右键以管理员身份运行
 
-![SW安装17](/jx_sw/17.png)
+![SW安装17](/Knowledge/jx_sw/17.png)
 
 右键页眉点击禁用英特网访问
 
-![SW安装18](/jx_sw/18.png)
+![SW安装18](/Knowledge/jx_sw/18.png)
 
 点击下一步
 
-![SW安装19](/jx_sw/19.png)
+![SW安装19](/Knowledge/jx_sw/19.png)
 
 选择要安装的组件，推荐安装图中的组件，红色为必装，选择完成后点击下一步
 
-![SW安装20](/jx_sw/20.png)
+![SW安装20](/Knowledge/jx_sw/20.png)
 
 若有图示提示点击是即可
 
-![SW安装21](/jx_sw/21.png)
+![SW安装21](/Knowledge/jx_sw/21.png)
 
 更改安装位置和Toolbox文件夹位置     
 更改位置非必须步骤，若C盘空间充足可不做更改
 
-![SW安装22](/jx_sw/22.png)
+![SW安装22](/Knowledge/jx_sw/22.png)
 
 ::: warning 提示
 **示例从C盘改为D盘：**  
 手动将C改为D即可，不要更改其余的子目录结构，否则会影响后续安装步骤！！！     
 更改完地址后如图所示。
-![SW安装23](/jx_sw/23.png)
+![SW安装23](/Knowledge/jx_sw/23.png)
 :::
 勾选我接受许可协议，点击现在安装
 
-![SW安装24](/jx_sw/24.png)
+![SW安装24](/Knowledge/jx_sw/24.png)
 
 点击是即可
 
-![SW安装25](/jx_sw/25.png)
+![SW安装25](/Knowledge/jx_sw/25.png)
 
 等待安装结束
 
-![SW安装26](/jx_sw/26.png)
+![SW安装26](/Knowledge/jx_sw/26.png)
 
 取消展示新增功能内容，选择“不，谢谢”后点击完成
-![SW安装27](/jx_sw/27.png)
+![SW安装27](/Knowledge/jx_sw/27.png)
 
 重新打开解压后的安装包文件夹，打开Crack文件夹，复制SOLIDWORKS Corp文件夹到安装所在硬盘根目录的Program Files文件夹中
 
-![SW安装28](/jx_sw/28.png)
+![SW安装28](/Knowledge/jx_sw/28.png)
 
 出现弹窗勾选继续执行即可
 
-![SW安装29](/jx_sw/29.png)
+![SW安装29](/Knowledge/jx_sw/29.png)
 
 ### 安装完成
 
