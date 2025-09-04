@@ -5,7 +5,7 @@ import socialLinks from './socialLinks.mjs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/Home/Ambition_LOGO_LIGHT.png" }],
+  head: [["link", { rel: "icon", href: "/home/Ambition_LOGO_LIGHT.png" }],
   ["meta", 
     {
     name: "baidu-site-verification",
@@ -19,8 +19,8 @@ export default defineConfig({
     outlineTitle: '目录',
     outline: [2, 6],
     logo: {
-      light: '/Home/SLDX_LOGO_LIGHT.png',
-      dark: '/Home/SLDX_LOGO_DARK.png'
+      light: '/home/SLDX_LOGO_LIGHT.png',
+      dark: '/home/SLDX_LOGO_DARK.png'
     },
 
     nav: nav,//页眉按钮
