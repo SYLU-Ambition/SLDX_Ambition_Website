@@ -23,7 +23,6 @@ export default defineConfig({
       dark: '/home/SLDX_LOGO_DARK.png'
     },
 
-    // https://vitepress.dev/reference/default-theme-config
     nav: nav,//页眉按钮
 
     sidebar: sidebar,//左侧边栏
