@@ -24,7 +24,7 @@ features: # 首页下方介绍
     title: 机械组
     details: 机械组负责机器人结构的设计与搭建。
   - icon:
-      light: /和、ome/DKZ_LIGHT.png
+      light: /home/DKZ_LIGHT.png
       dark: /home/DKZ_DARK.png
     title: 电控组
     details: 电控组负责机器人控制算法的编写与调试。
