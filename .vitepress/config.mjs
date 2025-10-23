@@ -13,7 +13,7 @@ export default defineConfig({
     }
   ]
   ],
-  title: "SYDX-Ambition",//网页大标题
+  title: "沈理电协Ambition战队",//网页大标题
   description: "A VitePress Site",
   themeConfig: {
     outlineTitle: '目录',
