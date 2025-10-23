@@ -20,7 +20,7 @@ export default [//页眉按钮
         items: [
             { text: '招新介绍', link: '/Sign_Up/sign_up_introduction' },
             { text: '组别介绍', link: '/Sign_Up/group_introduction' },
-            { text: 'Q&A', link: '/Sign_Up/qa' }
+            { text: 'Q&A', link: '/Sign_Up/QA' }
         ]
     },
     {
