@@ -5,7 +5,7 @@ import socialLinks from './socialLinks.mjs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/home/Ambition_LOGO_LIGHT.png" }],
+  head: [["link", { rel: "icon", href: "/home/Ambition_LOGO_LIGHT.png" }], ["meta", { name: "description", content: "沈阳理工大学电子技术与应用协会 Ambition 战队官方网站 - 梦以为剑，创征四方！" }],
   ["meta", 
     {
     name: "baidu-site-verification",
