@@ -10,9 +10,13 @@ import NCard from './NCard.vue'
 import {
   NolebaseEnhancedReadabilitiesMenu,
   NolebaseEnhancedReadabilitiesScreenMenu,
-  InjectionKey,
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
+
+// 设置中文环境
+if (typeof window !== 'undefined') {
+  window.NOLEBASE_LOCALE = 'zh-CN'
+}
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -37,10 +41,5 @@ export default {
     app.component('NCard', NCard)
     app.component('NolebaseEnhancedReadabilitiesMenu', NolebaseEnhancedReadabilitiesMenu)
     app.component('NolebaseEnhancedReadabilitiesScreenMenu', NolebaseEnhancedReadabilitiesScreenMenu)
-    
-    // 提供中文配置
-    app.provide(InjectionKey, {
-      locale: 'zh-CN',
-    })
   }
 }
