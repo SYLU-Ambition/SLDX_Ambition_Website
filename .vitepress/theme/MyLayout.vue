@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme';
 import { watch } from 'vue';
 import Giscus from '@giscus/vue';
 import { useRoute, useData, inBrowser } from 'vitepress';
+import { NolebaseEnhancedReadabilitiesMenu } from '@nolebase/vitepress-plugin-enhanced-readabilities/client';
 const { page, isDark } = useData();
 const { Layout } = DefaultTheme;
 
@@ -30,8 +31,11 @@ watch(isDark, (dark) => {
         <div class="jumbo absolute opacity-60 animate"></div>
     </div>
 
-    <Layout>
-      <template #doc-after>
+<Layout>
+<template #nav-bar-content-after>
+<NolebaseEnhancedReadabilitiesMenu />
+</template>
+<template #doc-after>
         <div style="margin-top: 24px">
           <Giscus
             :key="page.filePath"
