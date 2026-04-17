@@ -7,7 +7,11 @@ import escookTheme from '@escook/vitepress-theme'
 import '@escook/vitepress-theme/style.css'
 import MyLayout from './MyLayout.vue'
 import NCard from './NCard.vue'
-
+import {
+  NolebaseEnhancedReadabilitiesMenu,
+  NolebaseEnhancedReadabilitiesScreenMenu,
+} from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 
 // 设置中文环境
 if (typeof window !== 'undefined') {
@@ -35,5 +39,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('NCard', NCard)
+    app.component('NolebaseEnhancedReadabilitiesMenu', NolebaseEnhancedReadabilitiesMenu)
+    app.component('NolebaseEnhancedReadabilitiesScreenMenu', NolebaseEnhancedReadabilitiesScreenMenu)
   }
 }

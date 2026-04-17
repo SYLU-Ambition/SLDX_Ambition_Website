@@ -78,10 +78,7 @@ export default defineConfig({
   },
     vite: {
         ssr: {
-            noExternal: ['@escook/vitepress-theme', 'vitepress'],
-        },
-        optimizeDeps: {
-            exclude: ['@nolebase'],
+            noExternal: ['@escook/vitepress-theme', 'vitepress', '@nolebase/vitepress-plugin-enhanced-readabilities', '@nolebase/ui'],
         },
     },
   srcDir: './doc',//MD页面根目录
