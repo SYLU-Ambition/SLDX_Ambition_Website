@@ -76,11 +76,11 @@ export default defineConfig({
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '切换主题',
   },
-  vite: {
-    ssr: {
-      noExternal: ['@escook/vitepress-theme', 'vitepress'],
-    }
-  },
+    vite: {
+        ssr: {
+            noExternal: ['@escook/vitepress-theme', 'vitepress', '@nolebase'],
+        }
+    },
   srcDir: './doc',//MD页面根目录
   lastUpdated: true,//更新时间开关
   markdown: {
