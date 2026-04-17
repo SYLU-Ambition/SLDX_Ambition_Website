@@ -120,17 +120,15 @@
     }
   }
 
-/* 移动端大纲栏透明 */
-.VPLocalNav {
-background-color: rgba(255, 255, 255, 0);
-backdrop-filter: blur(10px);
-}
+  /* 移动端大纲栏透明 */
+  .VPLocalNav {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+  }
 
+}
 /* 阅读增强菜单定位到最右侧 */
 .VPNolebaseEnhancedReadabilitiesMenuFlyout {
 margin-left: auto;
 order: 999;
-}
-}
-
 }
