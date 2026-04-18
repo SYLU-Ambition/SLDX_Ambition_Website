@@ -29,9 +29,9 @@ export default defineConfig({
     sidebar: sidebar,//左侧边栏
 
     socialLinks: socialLinks,//跳转
-    footer: {//页脚
-      // 在这里添加友链
-      message:'2025 © By 运营组 Zhan_Kong',
+footer: {//页脚
+// 在这里添加友链
+message: `${new Date().getFullYear()} © By 运营组 Zhan_Kong`,
       copyright:
         `链接：
           <a href="https://www.sylu.edu.cn/" target="_blank" rel="noopener noreferrer" style="margin: 0 5px;">沈阳理工大学 官网</a> |
