@@ -4,6 +4,7 @@ import { watch } from 'vue';
 import Giscus from '@giscus/vue';
 import { useRoute, useData, inBrowser } from 'vitepress';
 import { NolebaseEnhancedReadabilitiesMenu } from '@nolebase/vitepress-plugin-enhanced-readabilities/client';
+import EditOnGitHub from './components/EditOnGitHub.vue';
 const { page, isDark } = useData();
 const { Layout } = DefaultTheme;
 
@@ -36,8 +37,9 @@ watch(isDark, (dark) => {
 <NolebaseEnhancedReadabilitiesMenu />
 </template>
 <template #doc-after>
-        <div style="margin-top: 24px">
-          <Giscus
+<EditOnGitHub />
+<div style="margin-top: 24px">
+<Giscus
             :key="page.filePath"
             repo="SYLU-Ambition/SLDX_Ambition_Website"
             repo-id="R_kgDOOea3Bg"
