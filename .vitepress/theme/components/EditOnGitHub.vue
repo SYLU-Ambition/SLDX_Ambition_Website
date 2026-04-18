@@ -43,6 +43,7 @@ const editLink = computed(() => {
   const path = route.path.replace(/\/$/, '')
   // 将 /xxx/yyy/ 转换为 xxx/yyy.md
   const filePath = path.replace(/^\//, '').replace(/\.html$/, '') + '.md'
+  // 直接跳转到编辑页面
   return `https://github.com/${repo}/edit/main/${docsDir}/${filePath}`
 })
 

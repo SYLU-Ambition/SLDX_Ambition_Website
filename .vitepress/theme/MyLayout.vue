@@ -36,8 +36,10 @@ watch(isDark, (dark) => {
 <template #nav-bar-content-after>
 <NolebaseEnhancedReadabilitiesMenu />
 </template>
-<template #doc-after>
+<template #doc-footer-before>
 <EditOnGitHub />
+</template>
+<template #doc-after>
 <div style="margin-top: 24px">
 <Giscus
             :key="page.filePath"
