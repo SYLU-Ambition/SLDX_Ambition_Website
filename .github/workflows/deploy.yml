@@ -3,11 +3,9 @@
 name: Deploy VitePress site to Pages
 
 on:
-  # 在针对 `main` 分支的推送上运行。如果你
-  # 使用 `master` 分支作为默认分支，请将其更改为 `master`
+  # 只在主仓库的 main 分支推送时部署，Fork 仓库不会触发部署
   push:
     branches: [main]
-
   # 允许你从 Actions 选项卡手动运行此工作流程
   workflow_dispatch:
 
@@ -23,10 +21,50 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
+  # 只在主仓库运行时才部署
+  build:
+    # 如果不是主仓库，跳过的部署
+    if: github.repository == 'SYLU-Ambition/SLDX_Ambition_Website'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v3
+      with:
+        version: 10.9.0
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22
+        cache: pnpm
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+    - name: Install dependencies
+      run: pnpm install
+    - name: Build with VitePress
+      run: pnpm run build
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: .vitepress/dist
+
+  # 部署工作
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    if: github.repository == 'SYLU-Ambition/SLDX_Ambition_Website'
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
   # 构建工作
   build:
     runs-on: ubuntu-latest
