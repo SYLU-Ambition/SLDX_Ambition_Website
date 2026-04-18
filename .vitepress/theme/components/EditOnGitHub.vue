@@ -35,7 +35,8 @@ const docsDir = 'doc'
 
 const show = computed(() => {
   const path = route.path
-  return !path.includes('/404.html') && !path.includes('/contents')
+  // 只在 404 页面不显示编辑按钮
+  return !path.includes('/404.html')
 })
 
 // 将路由路径转换为 GitHub 上的文件路径
