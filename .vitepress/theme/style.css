@@ -129,6 +129,45 @@
 }
 /* 阅读增强菜单定位到最右侧 */
 .VPNolebaseEnhancedReadabilitiesMenuFlyout {
-margin-left: auto;
-order: 999;
+  margin-left: auto;
+  order: 999;
+}
+
+/* 首页 Features 布局优化 - 5 个项目时的布局 */
+/* 大屏幕：PC 端 */
+@media (min-width: 768px) {
+  .VPHome .VPFeatures .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+  
+  .VPHome .VPFeatures .item {
+    flex: 0 0 calc(33.333% - 16px);
+    max-width: calc(33.333% - 16px);
+  }
+  
+  /* 如果有 5 个项目，最后 2 个居中显示 */
+  .VPHome .VPFeatures .items:has(.item:nth-child(5)) .item:nth-child(4),
+  .VPHome .VPFeatures .items:has(.item:nth-child(5)) .item:nth-child(5) {
+    flex: 0 0 calc(50% - 12px);
+    max-width: calc(50% - 12px);
+  }
+}
+
+/* 中等屏幕：平板 */
+@media (min-width: 640px) and (max-width: 767px) {
+  .VPHome .VPFeatures .item {
+    flex: 0 0 calc(50% - 16px);
+    max-width: calc(50% - 16px);
+  }
+}
+
+/* 小屏幕：手机 */
+@media (max-width: 639px) {
+  .VPHome .VPFeatures .item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
