@@ -1,0 +1,8 @@
+{
+    "target_account": "沈理电协",
+    "output_dir": "../doc/public/wechat",
+    "download_videos": true,
+    "max_articles": 0,
+    "headless": true,
+    "login_timeout_ms": 180000
+}

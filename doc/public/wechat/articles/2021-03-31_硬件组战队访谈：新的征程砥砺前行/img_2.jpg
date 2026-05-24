@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 175 64" style="enable-background:new 0 0 175 64;" xml:space="preserve">
+<g>
+	<circle style="fill:#FFFE7F;" cx="32" cy="32" r="32" />
+	<path d="M32,9c12.7,0,23,10.3,23,23S44.7,55,32,55S9,44.7,9,32S19.3,9,32,9 M32,0C14.3,0,0,14.3,0,32s14.3,32,32,32s32-14.3,32-32   S49.7,0,32,0L32,0z" />
+</g>
+<g>
+	<circle style="fill:#FFFE7F;" cx="143" cy="32" r="32" />
+	<path d="M143,9c12.7,0,23,10.3,23,23s-10.3,23-23,23s-23-10.3-23-23S130.3,9,143,9 M143,0c-17.7,0-32,14.3-32,32s14.3,32,32,32   s32-14.3,32-32S160.7,0,143,0L143,0z" />
+</g>
+<g>
+	<circle style="fill:#FFFE7F;" cx="254" cy="32" r="32" />
+	<path d="M254,9c12.7,0,23,10.3,23,23s-10.3,23-23,23s-23-10.3-23-23S241.3,9,254,9 M254,0c-17.7,0-32,14.3-32,32s14.3,32,32,32   s32-14.3,32-32S271.7,0,254,0L254,0z" />
+</g>
+</svg>

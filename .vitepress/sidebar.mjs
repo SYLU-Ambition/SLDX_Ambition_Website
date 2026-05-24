@@ -54,6 +54,10 @@ items: [
 { text: 'RM 操作手端使用', link: '/Knowledge/rm_server' },
 ]
 },
+{
+text: '公众号文章存档',
+link: '/wechat',
+},
 {//置底，要添加目录在上面添加
 text: '关于',
 collapsed: true,

@@ -1,0 +1,18 @@
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296.729 236.546" width="100%" style="vertical-align: middle; max-width: 100%; width: 100%;">
+   <g>
+    <g>
+     <g>
+      <rect width="296.729" height="164.849" transform="translate(296.729 164.849) rotate(180)" fill="rgb(243,129,43)">
+      </rect>
+      <polyline points="40.82 161.839 40.82 236.546 116.703 160.663" fill="rgb(243,129,43)">
+      </polyline>
+     </g>
+     <circle cx="222.135" cy="77.895" r="21.946" fill="rgb(255, 255, 255)">
+     </circle>
+     <circle cx="150.937" cy="77.895" r="21.946" fill="rgb(255, 255, 255)">
+     </circle>
+     <circle cx="79.739" cy="77.895" r="21.946" fill="rgb(255, 255, 255)">
+     </circle>
+    </g>
+   </g>
+  </svg>

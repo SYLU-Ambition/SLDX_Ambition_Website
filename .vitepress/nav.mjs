@@ -51,4 +51,8 @@ items: [
 { text: 'RM 操作手端使用', link: '/Knowledge/rm_server' },
 ]
 },
+{
+text: '公众号存档',
+link: '/wechat',
+},
 ]

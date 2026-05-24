@@ -46,6 +46,15 @@ jobs:
       uses: actions/configure-pages@v4
     - name: Install dependencies
       run: pnpm install
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        cache: 'pip'
+    - name: Install Python deps
+      run: pip install Pillow beautifulsoup4 lxml
+    - name: Optimize wechat articles
+      run: python3 scripts/optimize_wechat.py
     - name: Build with VitePress
       run: pnpm run build
     - name: Upload artifact

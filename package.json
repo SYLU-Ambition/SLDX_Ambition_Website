@@ -10,7 +10,9 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "optimize": "python3 scripts/optimize_wechat.py",
+    "prebuild": "python3 scripts/optimize_wechat.py"
   },
   "dependencies": {
     "@escook/vitepress-theme": "^1.3.1",
