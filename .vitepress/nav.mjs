@@ -42,6 +42,7 @@ items: [
 { text: '24 联盟赛', link: '/Photo/24LMS' },
 { text: '24 对抗赛', link: '/Photo/24DKS' },
 { text: '25 对抗赛', link: '/Photo/25DKS' },
+{ text: '26 对抗赛', link: '/Photo/26DKS' },
 ]
 },
 {
