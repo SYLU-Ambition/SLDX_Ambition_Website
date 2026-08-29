@@ -17,7 +17,7 @@ wechat-archive-tool/src/__pycache__
 wechat-archive-tool/articles
 
 doc/public/wechat-backups
-doc/public/原图备份
+doc/public原图备份
 
 # 公众号视频过大，不纳入 git 管理
 doc/public/wechat/articles/**/*.mp4
