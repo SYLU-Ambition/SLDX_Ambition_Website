@@ -4,3 +4,15 @@ allowBuilds:
 onlyBuiltDependencies:
   - esbuild
   - vue-demi
+overrides:
+  # Dependabot 依赖漏洞修复（保持在 vite5 / VitePress 1.x 兼容区间内）
+  # 注: esbuild 与 vite 可安全升级上限受 vite5 锁定，不在此覆盖; image-size 为 less 的可选依赖,属跨 major,不强制
+  lodash: 4.18.1
+  lodash-es: 4.18.1
+  nanoid: 3.3.18
+  postcss: 8.5.26
+  rollup: 4.59.0
+  preact: 10.26.10
+  mdast-util-to-hast: 13.2.1
+  element-plus: 2.11.1
+  vite: 5.4.21
