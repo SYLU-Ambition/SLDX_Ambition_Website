@@ -102,15 +102,15 @@ function formatTitle(t) {
 
 <style scoped>
 .wx-archive { max-width: 880px; margin: 0 auto; }
-.wx-header { text-align: center; padding: 24px 0 12px; }
+.wx-header { text-align: center; padding: 30px 0 14px; }
 .wx-header h1 {
   font-size: 1.8em; font-weight: 700;
-  line-height: 1.5;
-  padding-bottom: 0.2em;
+  line-height: 1.6;
+  padding: 0.15em 0 0.15em;
   background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
   -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
 }
-.wx-subtitle { color: var(--vp-c-text-2); font-size: 0.9em; margin-top: 10px; }
+.wx-subtitle { color: var(--vp-c-text-2); font-size: 0.9em; margin-top: 12px; }
 .wx-year-group { margin-bottom: 32px; }
 .wx-year-title {
   font-size: 1.2em; font-weight: 600; color: var(--vp-c-brand-1);
