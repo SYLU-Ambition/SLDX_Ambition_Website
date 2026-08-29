@@ -47,4 +47,4 @@
 ![24对抗赛46](/Photo/photo_24dks/46.jpg)
 ![24对抗赛47](/Photo/photo_24dks/47.jpg)
 ![24对抗赛48](/Photo/photo_24dks/48.jpg)
-![24对抗赛49](/Photo/photo_24dks/49.png)
+![24对抗赛49](/Photo/photo_24dks/49.webp)

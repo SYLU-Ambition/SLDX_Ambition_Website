@@ -36,7 +36,7 @@ RoboMaster 机甲大师高校联盟赛（RMUL, RoboMaster University League）�
 3V3对抗赛中，对战双方需自主研发步兵机器人、英雄机器人及哨兵机器人，在指定的比赛场地内进行战术对抗，战场控制程度高的一方可获得“胜利点”。“胜利点”累计满即可获得胜利。
 步兵对抗赛中，双方步兵机器人在战场中进行1V1对抗，射击对方装甲模块，比赛结束时，步兵机器人剩余血量高的队伍获胜。
 工程挑战赛中，每支队伍的工程机器人将完成取矿及兑矿任务，综合兑矿完成度及速度进行计分排名。
-![联盟赛兵种图](/Ambition_Introduction/competition_introduction/LMSBZ.png)
+![联盟赛兵种图](/Ambition_Introduction/competition_introduction/LMSBZ.webp)
 
 ---
 

@@ -11,7 +11,8 @@ cache
 .history/*
 *.code-workspace
 
-doc/public/wechat-backups
+# 公众号文章压缩前的原图备份（本地备份，不入库、不进构建产物）
+doc/wechat-backups
 doc/public原图备份
 
 # 公众号视频过大，不纳入 git 管理

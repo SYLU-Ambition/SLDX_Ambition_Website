@@ -167,7 +167,7 @@
 每次打开NCStudio均需要检查进给速率及主轴转速，主轴转速应为18000
 :::
 
-![雕铣机教学29](/Knowledge/jx_dxj/29.png)
+![雕铣机教学29](/Knowledge/jx_dxj/29.webp)
 
 ## 装载刀加工文件
 >路径已提前预设好，如有异常，请选择：库-CNC-jiagong（NC）

@@ -25,7 +25,7 @@
 ![19合照4](/Ambition_Introduction/team_photos/19HZ4.jpg) 
 ![19合照5](/Ambition_Introduction/team_photos/19HZ5.jpg)
 ![19合照6](/Ambition_Introduction/team_photos/19HZ5.jpg)
-![19合照7](/Ambition_Introduction/team_photos/19HZ6.png)
+![19合照7](/Ambition_Introduction/team_photos/19HZ6.webp)
 ![19合照8](/Ambition_Introduction/team_photos/19BJ.jpg) 
 ![19合照9](/Ambition_Introduction/team_photos/19BJ2.jpg)  
 

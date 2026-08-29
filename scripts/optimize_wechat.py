@@ -18,7 +18,7 @@ from pathlib import Path
 PROJ = Path(__file__).resolve().parent.parent
 ARTICLES = PROJ / 'doc/public/wechat/articles'
 SHARED = ARTICLES / '_shared'
-BACKUP = PROJ / 'doc/public/wechat-backups'
+BACKUP = PROJ / 'doc/wechat-backups'
 METADATA_JSON = PROJ / 'doc/public/wechat/wechat-metadata.json'
 MIN_COVERAGE = 0.8
 MAX_WIDTH = 1200

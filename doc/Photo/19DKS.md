@@ -87,7 +87,7 @@
 ![19对抗赛86](/Photo/photo_19dks/86.jpg)
 ![19对抗赛87](/Photo/photo_19dks/87.jpg)
 ![19对抗赛88](/Photo/photo_19dks/88.jpg)
-![19对抗赛89](/Photo/photo_19dks/89.png)
+![19对抗赛89](/Photo/photo_19dks/89.webp)
 ![19对抗赛90](/Photo/photo_19dks/90.jpg)
 ![19对抗赛91](/Photo/photo_19dks/91.jpg)
 ![19对抗赛92](/Photo/photo_19dks/92.jpg)
