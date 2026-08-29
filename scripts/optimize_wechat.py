@@ -226,6 +226,18 @@ def minify_html():
 
 # ─── Step 6: Generate Metadata JSON ──────────────────────────────────
 
+def decode_html_entities(s):
+    """Decode common HTML entities back to their literal characters."""
+    if not s:
+        return s
+    return (s.replace('&amp;', '&')
+             .replace('&lt;', '<')
+             .replace('&gt;', '>')
+             .replace('&quot;', '"')
+             .replace('&#x27;', "'")
+             .replace('&nbsp;', ' '))
+
+
 def generate_metadata():
     """Generate metadata JSON for VitePress data loader."""
     print("Generating metadata...")
@@ -251,7 +263,7 @@ def generate_metadata():
             content = html_path.read_text()
             tm = re.search(r'<title>(.*?)</title>', content)
             if tm:
-                title = tm.group(1).strip()
+                title = decode_html_entities(tm.group(1).strip())
 
         has_cover = False
         cover_ext = None

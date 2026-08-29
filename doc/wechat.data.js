@@ -24,19 +24,26 @@ function shouldSkip(dirName) {
   return false
 }
 
+function decodeHtmlEntities(str) {
+  if (!str) return str
+  return str
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#x27;/g, "'")
+    .replace(/&#x2F;/g, '/')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&#(\d+);/g, (_, d) => String.fromCharCode(d))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, h) => String.fromCharCode(parseInt(h, 16)))
+}
+
 function extractTitle(htmlPath) {
   try {
     const content = fs.readFileSync(htmlPath, 'utf-8')
     const match = content.match(/<title>(.*?)<\/title>/)
     if (match) {
-      return match[1]
-        .trim()
-        .replace(/&amp;/g, '&')
-        .replace(/&lt;/g, '<')
-        .replace(/&gt;/g, '>')
-        .replace(/&quot;/g, '"')
-        .replace(/&#x27;/g, "'")
-        .replace(/&#(\d+);/g, (_, d) => String.fromCharCode(d))
+      return decodeHtmlEntities(match[1].trim())
     }
   } catch {}
   return null
@@ -107,7 +114,7 @@ export default {
           .map(a => ({
           date: a.date,
           year: a.year || parseInt(a.date.slice(0, 4)),
-          title: a.title,
+          title: decodeHtmlEntities(a.title),
           dir: a.dir,
           hasCover: a.hasCover || false,
           coverExt: a.coverExt || 'jpg',

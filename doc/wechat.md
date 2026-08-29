@@ -95,8 +95,8 @@ function formatTitle(t) {
 </div>
 
 <div v-else class="wx-empty">
-<p>暂无文章数据，请先运行文章归档工具。</p>
-<p style="font-size: 0.85em; margin-top: 8px; opacity: 0.6;">在 wechat-archive-tool 目录中执行 python main.py 开始归档。</p>
+<p>暂无文章数据，请先将归档文章放入 doc/public/wechat/articles/ 目录。</p>
+<p style="font-size: 0.85em; margin-top: 8px; opacity: 0.6;">将文章 HTML 放入相应目录后运行 optimize_wechat.py 以开始归档。</p>
 </div>
 </div>
 

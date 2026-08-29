@@ -11,11 +11,6 @@ cache
 .history/*
 *.code-workspace
 
-wechat-archive-tool/wechat_cookies.json
-wechat-archive-tool/__pycache__
-wechat-archive-tool/src/__pycache__
-wechat-archive-tool/articles
-
 doc/public/wechat-backups
 doc/public原图备份
 
