@@ -5,6 +5,7 @@ import Giscus from '@giscus/vue';
 import { useRoute, useData, inBrowser } from 'vitepress';
 import { NolebaseEnhancedReadabilitiesMenu } from '@nolebase/vitepress-plugin-enhanced-readabilities/client';
 import EditOnGitHub from './components/EditOnGitHub.vue';
+import ScrollProgress from './components/ScrollProgress.vue';
 const { page, isDark } = useData();
 const { Layout } = DefaultTheme;
 
@@ -27,6 +28,7 @@ watch(isDark, (dark) => {
 
 <template>
   <div> 
+    <ScrollProgress />
     <div
         class="absolute flex flex-col z-[40] w-full !max-w-full items-center justify-center bg-transparent transition-bg overflow-hidden h-[60vh] -top-16 pointer-events-none opacity-[.35] dark:opacity-50">
         <div class="jumbo absolute opacity-60 animate"></div>

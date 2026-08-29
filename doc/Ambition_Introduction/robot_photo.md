@@ -2,7 +2,7 @@
 
 ## 19赛季
 ### 英雄
-![19英雄](/Ambition_Introduction/robot_photo/19BB.png)  
+![19英雄](/Ambition_Introduction/robot_photo/19YX.png)  
 ### 工程
 ![19工程](/Ambition_Introduction/robot_photo/19GC.png)  
 ### 步兵
