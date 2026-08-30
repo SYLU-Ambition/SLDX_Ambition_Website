@@ -41,5 +41,14 @@ export default {
     app.component('NCard', NCard)
     app.component('NolebaseEnhancedReadabilitiesMenu', NolebaseEnhancedReadabilitiesMenu)
     app.component('NolebaseEnhancedReadabilitiesScreenMenu', NolebaseEnhancedReadabilitiesScreenMenu)
+
+    // 百度统计：VitePress 是 SPA，路由切换不整页刷新，hm.js 只在首次加载执行一次，
+    // 因此需要在每次路由切换后补报一次浏览，否则切换到其它页面的访问会被漏掉。
+    router.onAfterRouteChange = (to) => {
+      if (typeof window !== 'undefined' && window._hmt) {
+        const path = to && to.path ? to.path : (window.location.pathname + window.location.search)
+        window._hmt.push(['_trackPageview', path])
+      }
+    }
   }
 }

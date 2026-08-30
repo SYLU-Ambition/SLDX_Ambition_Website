@@ -27,7 +27,17 @@ export default withResponsiveImages(defineConfig({
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:title", content: SITE_TITLE }],
     ["meta", { name: "twitter:description", content: SITE_DESC }],
-    ["meta", { name: "twitter:image", content: OG_IMAGE }]
+    ["meta", { name: "twitter:image", content: OG_IMAGE }],
+    // 百度统计（hm.js）—— 首次加载注入统计脚本
+    ["script", {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?984fa3cc9ca2e077a2e9ae82730df739";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `]
   ],
   title: "沈理电协Ambition战队",//网页大标题
   description: SITE_DESC,
