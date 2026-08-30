@@ -16,11 +16,11 @@ permissions:
   pages: write
   id-token: write
 
-# 只允许同时进行一次部署，跳过正在运行和最新队列之间的运行队列
-# 但是，不要取消正在进行的运行，因为我们希望允许这些生产部署完成
+# 只允许同时进行一次部署。当短时间内有多个提交推送时，
+# 取消正在进行的运行，只保留最新一次，避免排队等待和重复构建
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   # 只在主仓库运行时才部署
