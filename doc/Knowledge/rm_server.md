@@ -47,6 +47,10 @@
 
 ### 老图传————VT02&VT12图传模块
 
+::: warning 注意
+自26赛季起官方赛事引擎不再支持老图传，老图传建议使用25赛季国赛版本。
+:::
+
 [**下载链接**](https://www.robomaster.com/zh-CN/products/components/detail/6136)
 ![图传驱动2](/Knowledge/rm_server/05.png)  
 

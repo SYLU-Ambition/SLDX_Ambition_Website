@@ -4,7 +4,7 @@ import nav from './nav.mjs';
 import sidebar from './sidebar.mjs';
 import socialLinks from './socialLinks.mjs';
 
-const SITE_URL = 'https://sldx-ambition.top';
+const SITE_URL = 'https://www.sldx-ambition.top';
 const SITE_TITLE = '沈理电协 Ambition 战队';
 const SITE_DESC = '沈阳理工大学电子技术与应用协会 Ambition 战队官方网站 - 梦以为剑，创征四方！';
 const OG_IMAGE = '/home/Ambition_LOGO_LIGHT.png';

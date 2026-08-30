@@ -2,7 +2,7 @@
 
 > 沈阳理工大学电子技术与应用协会 Ambition 战队官方门户网站
 
-**官网地址**：https://sldx-ambition.top
+**官网地址**：https://www.sldx-ambition.top
 
 ---
 

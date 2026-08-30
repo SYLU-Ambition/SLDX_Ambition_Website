@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 统一主域为 www，避免 www/裸域 被当成两个站点
+Sitemap: https://www.sldx-ambition.top/sitemap.xml
