@@ -118,6 +118,8 @@ message: `<span class="footer-slogan">梦以为剑，创征四方！</span>`,
 }), {
   // 图片响应式多尺寸 + WebP 压缩（含 loading="lazy" 懒加载）
   // 只用 webp：编码快、文件仍明显变小，兼顾构建速度与收益
+  // 质量降到 70 以控制构建产物体积，为后续内容留出余量（视觉损失可忽略）
   widths: [480, 720, 960, 1440],
   formats: ['webp'],
+  quality: { webp: 70, jpeg: 70, avif: 70 },
 })
