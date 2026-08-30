@@ -199,6 +199,95 @@ def compress_images():
     print(f"  Saved: {reduction / 1e6:.1f} MB ({100 * reduction / max(total_before, 1):.1f}%)")
     print(f"  Originals backed up to: {img_backup}")
 
+def _compress_one_generic(args):
+    """Compress a single image file (for generic dirs). Returns (before, after, action)."""
+    from PIL import Image
+    fp, = args
+    fp = Path(fp)
+    size_before = fp.stat().st_size
+    if size_before < 5120:
+        return (size_before, size_before, 'skip')
+
+    try:
+        img = Image.open(fp)
+        w, h = img.size
+        if w > MAX_WIDTH:
+            ratio = MAX_WIDTH / w
+            img = img.resize((MAX_WIDTH, int(h * ratio)), Image.LANCZOS)
+
+        ext = fp.suffix.lower()
+        if ext in ('.jpg', '.jpeg'):
+            if img.mode in ('RGBA', 'P', 'CMYK'):
+                img = img.convert('RGB')
+            img.save(str(fp), 'JPEG', quality=JPEG_QUALITY, optimize=True)
+        elif ext in ('.png', '.webp'):
+            img.save(str(fp), 'PNG', optimize=True) if ext == '.png' else img.save(str(fp), 'WEBP', quality=JPEG_QUALITY, optimize=True)
+        else:
+            return (size_before, size_before, 'skip')
+
+        size_after = fp.stat().st_size
+        return (size_before, size_after, 'ok')
+    except Exception as e:
+        return (size_before, size_before, f'err: {e}')
+
+
+def compress_dir_images(root_dir, backup_subdir):
+    """Recursively compress all images under a generic directory (e.g. Photo/).
+
+    Backs up originals to doc/wechat-backups/<backup_subdir>/ (one copy only,
+    so re-running is idempotent: already-backed-up files are left untouched).
+    """
+    root_dir = Path(root_dir)
+    if not root_dir.is_dir():
+        print(f"  [skip] {root_dir} does not exist")
+        return
+    # Exclude images under the backup dir (in case the backup lives inside root_dir)
+    backup_root = Path(BACKUP).resolve()
+    image_files = []
+    for ext in ('*.jpg', '*.jpeg', '*.png', '*.webp'):
+        for fp in root_dir.rglob(ext):
+            if backup_root != root_dir.resolve() and backup_root in fp.resolve().parents:
+                continue  # skip files already in a backup directory
+            image_files.append(fp)
+    if not image_files:
+        print(f"  [skip] {root_dir}: no images")
+        return
+
+    # Backup originals once (idempotent). Determine which files are NEW
+    # (i.e. had no backup before this run) so we only compress those.
+    img_backup = BACKUP / backup_subdir
+    new_files = []
+    for fp in image_files:
+        rel = fp.relative_to(root_dir)
+        bkp = img_backup / rel
+        if bkp.exists():
+            continue  # already backed up -> compressed before, leave alone
+        bkp.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(str(fp), str(bkp))
+        new_files.append(fp)
+
+    if not new_files:
+        print(f"  [{backup_subdir}] all {len(image_files)} images already compressed (idempotent)")
+        return
+
+    print(f"  Compressing {len(new_files)} images in {root_dir.name} (backup: {backup_subdir})...")
+    try:
+        from multiprocessing import Pool
+        with Pool() as pool:
+            results = pool.map(_compress_one_generic, [(str(fp),) for fp in new_files])
+    except Exception as ex:
+        print(f"    Multiprocessing failed ({ex}), falling back to serial...")
+        results = [_compress_one_generic((str(fp),)) for fp in new_files]
+
+    total_before = sum(r[0] for r in results)
+    total_after = sum(r[1] for r in results)
+    ok = sum(1 for r in results if r[2] == 'ok')
+    err = sum(1 for r in results if r[2].startswith('err'))
+    reduction = total_before - total_after
+    print(f"    {root_dir.name}: {ok} compressed, {err} errors")
+    print(f"    Before: {total_before / 1e6:.1f} MB → After: {total_after / 1e6:.1f} MB  (Saved {reduction / 1e6:.1f} MB / {100 * reduction / max(total_before, 1):.1f}%)")
+
+
 # ─── Step 5: HTML Minification ───────────────────────────────────────
 
 def minify_html():
@@ -317,8 +406,18 @@ def main():
     dedup_emojis()
 
     # Step 4: Image Compression
-    print("\n[4/6] Image Compression")
+    print("\n[4/6] Image Compression (wechat articles)")
     compress_images()
+
+    # Step 4b: Compress other large public image dirs to keep Pages < 1 GB
+    print("\n[4b] Compress public gallery dirs")
+    for root, sub in (
+        ('doc/public/Photo', 'photo_images'),
+        ('doc/public/Ambition_Introduction', 'ambition_intro_images'),
+        ('doc/public/Knowledge', 'knowledge_images'),
+        ('doc/public/History', 'history_images'),
+    ):
+        compress_dir_images(PROJ / root, sub)
 
     # Step 5: HTML Minification
     print("\n[5/6] HTML Minification")

@@ -33,3 +33,12 @@ pnpm dev                          # VitePress 开发服务器
 python3 scripts/optimize_wechat.py  # 优化图片/CSS
 pnpm run build                      # 构建 VitePress
 ```
+
+## 提交规范（重要）
+
+- **不要用 `git add .` / `git commit -a` 一把梭**。工作区常伴有大量「图片重压缩漂移」改动，务必只 `git add` 本次真正要改的文件，避免把噪音一起提交。
+- **`scripts/optimize_wechat.py` 是幂等压缩**（`JPEG_QUALITY`、`optimize=True`），对已压缩图片重复运行会产生**字节级漂移**：表现为 `git status` 里大量 `.jpg` 的 `M`（内容修改），`git diff --stat` 却是 **0 insertions / 0 deletions**。
+  - 这类改动**没有净收益、无需提交**。主分支上的图片往往已优化过，直接 `git restore doc/public/wechat/` 丢弃即可。
+  - 仅当确有**新文章 / 新图片**需要优化时才运行并提交。
+- **本地备份目录绝不可提交**：`doc/public原图备份/`、`doc/wechat-backups/`（均已被 gitignore）。曾因误提交原图备份导致仓库膨胀到 GB 级而被 GitHub 拒收，务必保持不入库。
+- 提交信息遵循中文描述，如 `ci: ...`、`feat: ...` 前缀惯例（见历史提交）。

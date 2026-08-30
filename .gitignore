@@ -17,3 +17,7 @@ doc/public原图备份
 
 # 公众号视频过大，不纳入 git 管理
 doc/public/wechat/articles/**/*.mp4
+
+# Python 编译缓存
+__pycache__/
+*.pyc
