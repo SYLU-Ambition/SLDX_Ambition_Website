@@ -60,12 +60,12 @@ footer: {//页脚
 // 在这里添加友链
 message: `<span class="footer-slogan">梦以为剑，创征四方！</span>`,
       copyright:
-        `<div class="footer-links">
+        `<span class="footer-links">
           <a href="https://www.sylu.edu.cn/" target="_blank" rel="noopener noreferrer" class="footer-link">沈阳理工大学 官网</a>
           <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener noreferrer" class="footer-link">RoboMaster 官网</a>
           <a href="https://bbs.robomaster.com/" target="_blank" rel="noopener noreferrer" class="footer-link">RoboMaster 论坛</a>
-        </div>
-        <div class="footer-copyright">${new Date().getFullYear()} © 沈理电协 Ambition 战队 · 运营组 Zhan_Kong</div>`,
+        </span>
+        <span class="footer-copyright">${new Date().getFullYear()} © 沈理电协 Ambition 战队 · 运营组 Zhan_Kong</span>`,
     },
     search: {
       provider: 'local',
