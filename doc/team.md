@@ -12,7 +12,8 @@ const members = [
   {//名单顺序以加入项目组时间为准
     avatar: 'https://github.com/zhanwuzhijing.png',
     name: '战空',
-    title: '23-25赛季运营组',
+    title: '23-25赛季运营组 · 项目负责人',
+    desc: 'QQ：2276539496',
     links: [
       { icon: 'github', link: 'https://github.com/zhanwuzhijing' },
       { icon: 
@@ -36,7 +37,7 @@ const members = [
   </VPTeamPageTitle>
   <VPTeamMembers :members />
   <div class="custom-text" style="margin-top: 40px; padding-top: 20px;">
-    <center>联系途径：在下方评论区评论/私聊小A（QQ：2633592212）/给小A发送邮件（sldx_ambition@qq.com推荐），感谢来信。   </center>
+    <center>联系途径：在下方评论区评论/联系项目负责人战空（QQ：2276539496），感谢来信。   </center>
     <center>能翻到这一页的有一大半概率会是老学长吧。</center>
     <center>在此由衷感谢诸位老学长对电协和Ambition多年以来的关注和陪伴。</center>
     <center>在此由衷感谢在离开校园以后依旧对电协和Ambition提供帮助和咨询的老学长。</center>
