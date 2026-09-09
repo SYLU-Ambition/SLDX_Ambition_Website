@@ -1,0 +1,73 @@
+# 历年机器人定妆照
+
+## 19赛季
+### 英雄
+![19英雄](/Ambition_Introduction/robot_photo/19YX.png)  
+### 工程
+![19工程](/Ambition_Introduction/robot_photo/19GC.png)  
+### 步兵
+![19步兵](/Ambition_Introduction/robot_photo/19BB.png)  
+### 哨兵
+![19哨兵](/Ambition_Introduction/robot_photo/19SB.png)  
+### 无人机
+![19无人机](/Ambition_Introduction/robot_photo/19WRJ.png)  
+
+## 23赛季
+### 英雄
+![23英雄](/Ambition_Introduction/robot_photo/23YX.png)  
+### 工程
+![23工程](/Ambition_Introduction/robot_photo/23GC.png)  
+### 步兵
+![23步兵](/Ambition_Introduction/robot_photo/23BB.png) 
+### 哨兵 
+![23哨兵](/Ambition_Introduction/robot_photo/23SB.png)  
+### 雷达站
+![23雷达](/Ambition_Introduction/robot_photo/23LD.png)  
+
+## 24赛季
+### 英雄
+![24英雄](/Ambition_Introduction/robot_photo/24YX.png)  
+### 工程
+![24工程](/Ambition_Introduction/robot_photo/24GC.png)  
+### 步兵
+![24步兵](/Ambition_Introduction/robot_photo/24BB.png) 
+### 哨兵 
+![24哨兵](/Ambition_Introduction/robot_photo/24SB.png)  
+### 飞镖
+![24飞镖](/Ambition_Introduction/robot_photo/24FB.png)  
+
+## 25赛季
+### 英雄
+![25英雄](/Ambition_Introduction/robot_photo/25YX.png)  
+### 工程
+![25工程](/Ambition_Introduction/robot_photo/25GC.png)  
+### 步兵
+![25步兵](/Ambition_Introduction/robot_photo/25BB.png) 
+### 哨兵 
+![25哨兵](/Ambition_Introduction/robot_photo/25SB.png)  
+### 无人机
+![25无人机](/Ambition_Introduction/robot_photo/25WRJ.png)  
+### 飞镖
+![25飞镖](/Ambition_Introduction/robot_photo/25FB.png)  
+### 雷达站
+![25雷达](/Ambition_Introduction/robot_photo/25LD.png)  
+
+## 26赛季
+### 英雄
+![26英雄](/Ambition_Introduction/robot_photo/26YX.jpg)
+### 工程
+![26工程](/Ambition_Introduction/robot_photo/26GC.JPG)
+### 3号步兵
+![26步兵3](/Ambition_Introduction/robot_photo/26BB3.JPG)
+### 4号步兵
+![26步兵4](/Ambition_Introduction/robot_photo/26BB4.JPG)
+### 哨兵
+![26哨兵](/Ambition_Introduction/robot_photo/26SB.JPG)
+### 无人机
+![26无人机](/Ambition_Introduction/robot_photo/26WRJ.JPG)
+### 飞镖
+![26飞镖](/Ambition_Introduction/robot_photo/26FB.JPG)
+### 雷达站
+![26雷达站](/Ambition_Introduction/robot_photo/26LD.JPG)
+### 镖体
+![26镖体](/Ambition_Introduction/robot_photo/26BT.JPG)
