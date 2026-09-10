@@ -315,6 +315,7 @@
 }
 
 .VPFooter .footer-copyright {
+  display: block;
   margin-top: 8px;
   font-size: 13px;
   color: var(--vp-c-text-3);
