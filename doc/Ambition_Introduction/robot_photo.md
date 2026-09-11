@@ -51,3 +51,19 @@
 ![25飞镖](/Ambition_Introduction/robot_photo/25FB.png)  
 ### 雷达站
 ![25雷达](/Ambition_Introduction/robot_photo/25LD.png)  
+
+## 26赛季
+### 英雄
+![26英雄](/Ambition_Introduction/robot_photo/26YX.png)
+### 工程
+![26工程](/Ambition_Introduction/robot_photo/26GC.png)
+### 步兵
+![26步兵](/Ambition_Introduction/robot_photo/26BB.png)
+### 哨兵
+![26哨兵](/Ambition_Introduction/robot_photo/26SB.png)
+### 无人机
+![26无人机](/Ambition_Introduction/robot_photo/26WRJ.png)
+### 飞镖
+![26飞镖](/Ambition_Introduction/robot_photo/26FB.png)
+### 雷达站
+![26雷达站](/Ambition_Introduction/robot_photo/26LD.png)

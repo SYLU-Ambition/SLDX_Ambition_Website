@@ -49,3 +49,9 @@
 
 ![25合照1](/Ambition_Introduction/team_photos/25LMS2.jpg)
 ![25合照2](/Ambition_Introduction/team_photos/25DKS.jpg)
+
+## 2026赛季合照
+
+![26合照1](/Ambition_Introduction/team_photos/26LMS2.JPG)
+![26合照2](/Ambition_Introduction/team_photos/26QGS1.jpg)
+![26合照3](/Ambition_Introduction/team_photos/26QGS2.jpg)
