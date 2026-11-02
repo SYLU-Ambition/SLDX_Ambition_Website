@@ -1,4 +1,19 @@
 # 宣传视频
+## 27赛季招新视频
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117147984463550&bvid=BV1bv8Y6pE12&cid=41205892588&p=1&autoplay=0" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+
+## 26赛季纪录片MV
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117279014585476&bvid=BV1TVeF6PEFX&cid=41936879771&p=1&autoplay=0" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+
+## 26赛季全国赛MV
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117301714092297&bvid=BV1Ayev6fEzQ&cid=42047375531&p=1&autoplay=0" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+
+## 26赛季区域赛MV
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116689429726742&bvid=BV1SJ7Z64EVt&cid=38842532313&p=1&autoplay=0" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+
+## 26赛季联盟赛
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116324357374005&bvid=BV1AFXCBoEW9&cid=37130732874&p=1&autoplay=0" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+
 ## 25联盟赛MV
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114421351318893&bvid=BV1XUGmzMEsC&cid=29693184529&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
