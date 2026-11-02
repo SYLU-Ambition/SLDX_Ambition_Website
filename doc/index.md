@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "沈理电协" # 首页一级标题
   text: "Ambition战队" # 首页二级标题
-  tagline: 梦以为剑，创征四方！ # 口号
+  tagline: 梦以为剑，闯征四方！ # 口号
   image:
     alt: Logo
     light: /home/Ambition_LOGO_LIGHT.png

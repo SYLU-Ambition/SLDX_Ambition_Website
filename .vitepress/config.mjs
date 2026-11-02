@@ -6,7 +6,7 @@ import socialLinks from './socialLinks.mjs';
 
 const SITE_URL = 'https://www.sldx-ambition.top';
 const SITE_TITLE = '沈理电协 Ambition 战队';
-const SITE_DESC = '沈阳理工大学电子技术与应用协会 Ambition 战队官方网站 - 梦以为剑，创征四方！';
+const SITE_DESC = '沈阳理工大学电子技术与应用协会 Ambition 战队官方网站 - 梦以为剑，闯征四方！';
 const OG_IMAGE = '/home/Ambition_LOGO_LIGHT.png';
 
 // https://vitepress.dev/reference/site-config
@@ -58,14 +58,14 @@ export default withResponsiveImages(defineConfig({
     socialLinks: socialLinks,//跳转
 footer: {//页脚
 // 在这里添加友链
-message: `<span class="footer-slogan">梦以为剑，创征四方！</span>`,
+message: `<span class="footer-slogan">梦以为剑，闯征四方！</span>`,
       copyright:
         `<span class="footer-links">
           <a href="https://www.sylu.edu.cn/" target="_blank" rel="noopener noreferrer" class="footer-link">沈阳理工大学 官网</a>
           <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener noreferrer" class="footer-link">RoboMaster 官网</a>
           <a href="https://bbs.robomaster.com/" target="_blank" rel="noopener noreferrer" class="footer-link">RoboMaster 论坛</a>
         </span>
-        <span class="footer-copyright">${new Date().getFullYear()} © 沈理电协 Ambition 战队 · 运营组 Zhan_Kong</span>`,
+        <span class="footer-copyright">${new Date().getFullYear()} © 沈理电协 Ambition 战队 · <a href="/team" class="footer-link">官网项目组</a></span>`,
     },
     search: {
       provider: 'local',

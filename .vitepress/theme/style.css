@@ -320,3 +320,16 @@
   font-size: 13px;
   color: var(--vp-c-text-3);
 }
+
+/* 页脚版权行里的内联链接（官网项目组）：跟随正文色，悬停变品牌色 */
+.VPFooter .footer-copyright .footer-link {
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--vp-c-divider);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.VPFooter .footer-copyright .footer-link:hover {
+  color: var(--vp-c-brand-2);
+  border-bottom-color: var(--vp-c-brand-2);
+}
