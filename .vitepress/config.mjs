@@ -122,4 +122,9 @@ message: `<span class="footer-slogan">梦以为剑，闯征四方！</span>`,
   widths: [480, 720, 960, 1440],
   formats: ['webp'],
   quality: { webp: 70, jpeg: 70, avif: 70 },
+  // 图片处理失败时直接让构建报错退出，而不是静默跳过。
+  // 插件默认 failOnError:false + debug:false，图片没被处理时不打任何日志，
+  // 后果是原图路径被丢给 Rollup 解析，报出误导性的
+  // "Rollup failed to resolve import ..."（曾因源图用大写 .JPG 扩展名踩过）。
+  failOnError: true,
 })
