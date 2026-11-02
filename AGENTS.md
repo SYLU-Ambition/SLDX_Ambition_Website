@@ -24,8 +24,9 @@
 Windows / macOS（默认）不区分。所以本地预览完全正常、线上却裂图，最常见的原因就是**大小写写错**。
 
 - **Markdown 里引用的图片路径，扩展名和文件名必须与实际文件 100% 一致**。
-  - 实际文件是 `26LMS2.JPG` → 只能写 `/Ambition_Introduction/team_photos/26LMS2.JPG`
-  - 写成 `26LMS2.jpg` / `26LMS2.Jpg` 在 Windows 上照样能显示，但**构建直接失败**
+  - 实际文件是 `25LMS2.jpg` → 只能写 `/Ambition_Introduction/team_photos/25LMS2.jpg`
+  - 写成 `25LMS2.JPG` / `25LMS2.Jpg` 在 Windows 上照样能显示，但**构建直接失败**
+  - **源图扩展名一律用小写 `.jpg` / `.png`**，不要用大写 `.JPG` / `.PNG`（见下方踩坑记录）
 - **这不只是「裂图」那么简单**：`vitepress-plugin-responsive-images` 在**构建期**解析图片路径，
   大小写不匹配会让 `pnpm run build` / CI 直接报错退出：
 
@@ -48,8 +49,17 @@ Windows / macOS（默认）不区分。所以本地预览完全正常、线上�
 
 ### 已知踩坑记录
 
-- `doc/Ambition_Introduction/team_photos.md` 曾把 `26LMS2.JPG` 误写成 `26LMS2.jpg`，
-  图片文件内容毫无变化，仅扩展名大小写不同，就导致整站构建失败。
+- `doc/public/Ambition_Introduction/team_photos/26LMS2.JPG`（**大写扩展名**）与
+  `doc/Ambition_Introduction/team_photos.md:55` 的引用本来是**一致**的，但构建仍报
+  `Rollup failed to resolve import "/Ambition_Introduction/team_photos/26LMS2.JPG"`。
+  根因不是「引用写错大小写」，而是 **`vitepress-plugin-responsive-images` 处理不了大写源图扩展名**：
+  它在扫描阶段对这个引用抛异常，又被默认的 `failOnError: false` + `debug: false`
+  **静默吞掉**（`node_modules/vitepress-plugin-responsive-images/dist/index.js` 的
+  `scanMarkdownFile`），于是该图没进 manifest，Markdown 渲染时没被替换成 `<picture>`，
+  原样路径被丢给 Rollup 当模块解析，才报出这条误导性的错误。
+  - 特征：报错**极快**（构建仅 ~450ms 就失败），且**把图片文件移走再构建，报错一字不变**。
+  - 修法：`git mv` 把源图改成小写扩展名，再同步改 Markdown 引用，构建即通过。
+  - 教训：这个报错**不能只看路径大小写**，先确认源图扩展名是否大写。
 
 ## 图片格式选择（重要）
 
