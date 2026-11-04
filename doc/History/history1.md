@@ -1,7 +1,7 @@
 # 微光的传承——Ambition战队的今生故事
 >本文初次发布于2019年12月22日 00:24  
 >文案〡19赛季队长曹李钧     
->[点击链接查看原文](https://mp.weixin.qq.com/s/zVzMVt6Ro1V9P3DNcAnobw)  
+>[点击链接查看原文](https://www.sldx-ambition.top/wechat/articles/2019-12-22_%E5%BE%AE%E5%85%89%E7%9A%84%E4%BC%A0%E6%89%BF%E2%80%94%E2%80%94Ambition%E6%88%98%E9%98%9F%E7%9A%84%E4%BB%8A%E7%94%9F%E6%95%85%E4%BA%8B/index.html)  
 >**我们现在享受的每一分钟苦和难**    
 >**都在提炼点点微光**
 ## ◆ 初生
